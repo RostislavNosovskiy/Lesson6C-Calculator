@@ -6,8 +6,6 @@ class Program
         Calculator calculator = new Calculator();
     
         calculator.GotResult += Calculator_GotResult;
-        //calculator.Sum(5);
-        //calculator.CanceLast();
         Menu menu = new Menu();
         menu.Start(calculator);
     }
